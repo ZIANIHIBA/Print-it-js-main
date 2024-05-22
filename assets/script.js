@@ -83,7 +83,7 @@ let i=0;
 	let serieDot=document.querySelectorAll(".dots .dot")
 	serieDot[i].classList.remove("dot_selected")
     i ++;
-	if (i>3) {
+	if (i>=slides.length) {
 		i=0; 
 	}
 	serieDot[i].classList.add("dot_selected")
